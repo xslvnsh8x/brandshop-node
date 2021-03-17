@@ -1,0 +1,32 @@
+@import "variables";
+
+.nav {
+  grid-area: nav;
+  display: flex;
+  align-items: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.15), 0 2px 5px rgba(0, 0, 0, 0.2);
+
+  &__list {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+
+    &-item {
+      font-size: 18px;
+      text-transform: uppercase;
+
+
+      &:not(:last-child) {
+        margin-right: 36px;
+      }
+    }
+
+    &-link {
+      color: $baltic-sea;
+
+      &:hover {
+        color: $oxford-blue;
+      }
+    }
+  }
+}

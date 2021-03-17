@@ -1,0 +1,50 @@
+[
+  {
+    "id_product": 1,
+    "product_name": "Mango T-shirt",
+    "price": 39,
+    "img": "img/product_01.jpg"
+  },
+  {
+    "id_product": 2,
+    "product_name": "Mango Shirt",
+    "price": 41,
+    "img": "img/product_02.jpg"
+  },
+  {
+    "id_product": 3,
+    "product_name": "Mango Jacket",
+    "price": 99,
+    "img": "img/product_03.jpg"
+  },
+  {
+    "id_product": 4,
+    "product_name": "Mango Dress",
+    "price": 65,
+    "img": "img/product_04.jpg"
+  },
+  {
+    "id_product": 5,
+    "product_name": "Mango stripe Dress",
+    "price": 68,
+    "img": "img/product_05.jpg"
+  },
+  {
+    "id_product": 6,
+    "product_name": "Mango Hat",
+    "price": 18,
+    "img": "img/product_06.jpg"
+  },
+  {
+    "id_product": 7,
+    "product_name": "Mango Pants",
+    "price": 52,
+    "img": "img/product_07.jpg"
+  },
+  {
+    "id_product": 8,
+    "product_name": "Mango Hoodie",
+    "price": 45,
+    "img": "img/product_08.jpg"
+  }
+]

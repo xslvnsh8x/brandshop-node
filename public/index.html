@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8"/>
+	<meta
+			name="viewport"
+			content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+	/>
+	<meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+	<title>Project | Shop</title>
+	<link rel="preconnect" href="https://fonts.gstatic.com"/>
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap"/>
+</head>
+<body>
+<div id="app" class="wrapper">
+	<header class="header">
+		<div class="header__wrap center">
+			<a href="index.html" class="header__logo"></a>
+			<search></search>
+			<cart ref="cart"></cart>
+		</div>
+	</header>
+	<nav class="nav">
+		<ul class="nav__list center">
+			<li class="nav__list-item">
+				<a href="#" class="nav__list-link">Home</a>
+			</li>
+			<li class="nav__list-item">
+				<a href="#" class="nav__list-link">Catalog</a>
+			</li>
+			<li class="nav__list-item">
+				<a href="#" class="nav__list-link">About</a>
+			</li>
+			<li class="nav__list-item">
+				<a href="#" class="nav__list-link">Contacts</a>
+			</li>
+			<li class="nav__list-item">
+				<a href="#" class="nav__list-link">Delivery</a>
+			</li>
+		</ul>
+	</nav>
+	<main class="main center">
+		<error ref="error"></error>
+		<section class="catalog">
+			<h2 class="catalog__title">Catalog of goods</h2>
+			<products ref="products"></products>
+		</section>
+	</main>
+	<footer class="footer">
+		<div class="footer__wrap center">
+			<small class="footer__info">Stanislav Zavialov</small>
+			<small class="footer__info"
+			>2021. &copy;&nbsp;All rights reserved</small
+			>
+		</div>
+	</footer>
+</div>
+
+<script src="https://kit.fontawesome.com/3107014760.js" crossorigin="anonymous" defer></script>
+<script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+
+</body>
+</html>

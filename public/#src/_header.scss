@@ -1,0 +1,58 @@
+@import "variables";
+
+.header {
+  grid-area: header;
+
+  &__wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+  }
+
+  &__logo {
+    display: inline-flex;
+    height: 100px;
+    width: 150px;
+    background: url(../img/logo.svg) center / cover no-repeat;
+  }
+
+  &__search {
+    display: flex;
+
+    border: 1px solid $silver;
+    border-radius: 18px;
+    overflow: hidden;
+
+    &-input {
+      height: 34px;
+      padding: 0 16px;
+    }
+
+    &-btn {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 48px;
+    }
+
+    &-icon {
+      font-size: 16px;
+    }
+  }
+
+  &__cart {
+    position: relative;
+
+    &-btn {
+      background: white;
+      padding: 8px;
+      overflow: hidden;
+    }
+
+    &-icon {
+      font-size: 24px;
+      color: $oxford-blue;
+    }
+  }
+}

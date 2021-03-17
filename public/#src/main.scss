@@ -1,0 +1,32 @@
+@import "normalize";
+@import "variables";
+@import "header";
+@import "nav";
+@import "basket";
+@import "products";
+@import "footer";
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  color: $baltic-sea;
+}
+
+.center {
+  padding: 0 calc(50% - 600px);
+}
+
+.wrapper {
+  min-height: 100vh;
+  display: grid;
+  grid-template-areas:
+    'header'
+    'nav'
+    'main'
+    'footer';
+  grid-template-rows: 90px 56px 1fr 50px;
+}
+
+.main {
+  grid-area: main;
+}
