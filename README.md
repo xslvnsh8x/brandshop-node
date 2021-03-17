@@ -1,3 +1,4 @@
+# A small e-commerce app on Vue & NodeJS
 ## Project setup
 ```
 npm i
